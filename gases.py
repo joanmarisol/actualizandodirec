@@ -42,8 +42,4 @@ def calcular(opc, P, V, n, T):
 return "Opcion mal ingresada."
 
 o, p, v, n, t = datos()
-resultado = calcular(o, p, v, n, t)
-print(resultado)
-
-o, p, v, n, t = datos()
 print(calcular(o, p, v, n, t))
